@@ -5,8 +5,16 @@ services:
    dockerfile: Dockerfile.cpu
   command: [ 'python', 'facefusion.py', 'run' ]
   volumes:
-  - .assets:/facefusion/.assets
-  - .caches:/facefusion/.caches
-  - .jobs:/facefusion/.jobs
+  - assets:/facefusion/.assets
+  - caches:/facefusion/.caches
+  - jobs:/facefusion/.jobs
   ports:
   - 7865:7860
+  networks:
+  - portainer_network
+volumes:
+	assets:
+	caches:
+	jobs:
+networks:
+	portainer_network:
