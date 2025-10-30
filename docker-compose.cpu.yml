@@ -13,8 +13,8 @@ services:
   networks:
   - portainer_network
 volumes:
-	assets:
-	caches:
-	jobs:
+   assets:
+   caches:
+   jobs:
 networks:
-	portainer_network:
+   portainer_network:
