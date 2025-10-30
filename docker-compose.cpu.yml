@@ -8,6 +8,7 @@ services:
   - assets:/facefusion/.assets
   - caches:/facefusion/.caches
   - jobs:/facefusion/.jobs
+  - facefusion:/facefusion
   ports:
   - 7865:7860
   networks:
