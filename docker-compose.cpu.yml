@@ -16,5 +16,3 @@ volumes:
    assets:
    caches:
    jobs:
-networks:
-   portainer_network:
