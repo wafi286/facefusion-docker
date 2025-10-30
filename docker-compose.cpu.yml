@@ -11,8 +11,6 @@ services:
   - facefusion:/facefusion
   ports:
   - 7865:7860
-  networks:
-  - portainer_network
 volumes:
    assets:
    caches:
