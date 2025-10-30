@@ -15,3 +15,4 @@ volumes:
    assets:
    caches:
    jobs:
+   facefusion:
